@@ -1,0 +1,88 @@
+
+/* Heading styling */
+.heading-parent-container{
+
+    display: flex;
+    margin-top: 100px;
+    margin-left: 240px;
+    justify-content: space-between;
+}
+
+/* 'Tasks' word styling */
+.heading-styling{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 'Lists' word styling */
+.list-style{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    width: 9px;
+   
+}
+
+/* 'Add Lists' word styling */
+
+.button-text{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: gray;
+    display: inline-block;
+    margin-right: 550px;
+    margin-top: 55px;
+   
+}
+
+/* grid container */
+
+.cards-parent-container{
+    display: inline-grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: 300px ;
+    grid-gap:25px 70px ;
+    margin-left: 250px;
+    
+}
+    
+/* styling for card - one */
+
+.card1-style{
+    border: 2px solid red;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: red;
+    box-shadow: 3px 4px 4px 3px lightgray;
+    margin-bottom: 0px;
+    
+}
+
+/* styling for card one content */
+
+.strike1-style{
+    font-size: 19px;
+    padding: 19px;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+
+/* Checkbox 1 styling */
+
+.checkbox-styling{
+    color: black;
+    padding:10px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
